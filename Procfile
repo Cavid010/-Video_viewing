@@ -1,1 +1,1 @@
-worker: python main.py
+worker: python video_wtch.py
