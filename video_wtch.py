@@ -1,15 +1,15 @@
 import webbrowser, time
 
-url = input("Ссылка на видео>>")
+url = 'https://youtu.be/F-gRPC4XN10'
 while True:
 	try:
-		dur = int(input("Время просмотра>>"))
+		dur = 30
 		break
 	except:
 		print("Введите число!")
 while True:
 	try:
-		wtc = int(input("Коло-во просмотров>>"))
+		wtc = 10
 		break
 	except:
 		print("Введите число!")
